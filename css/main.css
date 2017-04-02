@@ -414,3 +414,9 @@ color: white;
 .footer .soc img {
     margin-left: 40px;
 }
+
+@media only screen and (max-width: 1000px) {
+    .nav .nav_wrapp {
+        width: 80%; 
+    }
+}
