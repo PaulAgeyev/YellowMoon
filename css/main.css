@@ -1,0 +1,416 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+color: white;
+}
+::-moz-placeholder { /* Firefox 19+ */
+color: white;
+}
+:-ms-input-placeholder { /* IE 10+ */
+color: white;
+}
+:-moz-placeholder { /* Firefox 18- */
+color: white;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.header {
+    width: 100%;
+    height: 1050px;
+    background-color: #89898b;
+    display: table;
+}
+
+.header .about {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.header .about .logo {
+    margin-bottom: 56px;
+}
+
+.header .about .head {
+    color: white;
+    font-size: 15px;
+    margin-bottom: 52px;
+}
+
+.header .about .text {
+    color: #ffe600;
+    font-size: 40px;
+    margin-bottom: 115px;
+}
+
+.header .explore {
+    margin-bottom: 60px;
+    position: relative;
+}
+
+.header .explore a{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    border: 1px solid #ffe600;
+    padding: 24px 82px;
+    color: white;
+    font-size: 15px;
+}
+
+.nav {
+    padding-top: 33px;
+    width: 100%;
+    border-bottom: 2px solid #ffe600;
+    position: fixed;
+    top: 0px;
+    background-color: white;
+}
+
+.nav .nav_wrapp {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.nav .logo{
+    display: inline-block;
+    margin-bottom: 33px;
+}
+
+.nav .navbar {
+    float: right;
+    display: inline-block;
+}
+
+.nav .navbar:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.nav .navbar ul {
+    list-style-type: none;
+}
+
+.nav .navbar ul li {
+    color: #a4a4a4;
+    display: inline-block;
+    margin-left: 13px;
+}
+
+.nav .navbar ul li a {
+    text-decoration: none;
+}
+
+.nav .navbar ul li a.active {
+    border: 1px solid #ffe512;
+    padding: 14px 20px;
+    color: black;
+    font-weight: bold;
+}
+
+.aboutus {
+    width: 100%;
+    height: 600px;
+    display: table;
+}
+
+.aboutus .container {
+    display: table-cell;
+    vertical-align: bottom;
+    text-align: center;
+}
+
+.aboutus .container .head {
+    margin-bottom: 32px;
+    font-size: 25px;
+}
+.aboutus .container > .text {
+    font-size: 15px;
+    color: #ffe600;
+}
+.aboutus .container .about_table .title {
+    margin-bottom: 60px;
+    color: #131316;display: inline-block;
+}
+
+.aboutus .container .text {
+    margin-bottom: 150px;
+}
+
+.aboutus .container .about_table {
+    display: table;
+    width: 70%;
+    margin: 0 auto;
+}
+.aboutus .container .about_table .myrow {
+    display: table-row;
+}
+.aboutus .container .about_table .column1, .column2, .column3 { 
+    display: table-column;
+}
+.aboutus .container .about_table .col {
+    display: table-cell;
+    width: 33.33%;
+}
+
+.aboutus .container .about_table .col img {
+    width: 40px;
+    display: inline-block;
+    margin-right: 2%;
+       vertical-align: bottom;
+}
+
+.aboutus .container .about_table .col .img_t {
+    width: 70%;
+    display: inline-block;
+    text-align: left;
+}
+
+.aboutus .container .about_table .col .text {
+    color: #8e8e8e;
+}
+
+.stuff {
+    height: 600px;
+    background-color: #ffeb33;
+}
+
+.stuff {
+    width: 100%;
+    display: table;
+}
+
+.stuff .container {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.stuff .container .title {
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.stuff .container .text {
+    font-size: 15px;
+    color: white;
+}
+
+.portoflio {
+    height: 940px;
+    width: 100%;
+}
+
+.portoflio {
+    display: table;
+}
+
+.portoflio .container {
+    width: 70%;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.portoflio .container .title {
+    margin-top: 125px;
+    font-size: 25px;
+    margin-bottom: 32px;
+}
+
+.portoflio .myrow {
+    display: table-row;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.portoflio .cards {
+    margin-bottom: 29px;
+    display: table;
+    width: 80%;
+    margin: 0 auto;
+    border-spacing: 30px;
+}
+
+.portoflio .card {
+    display: table-cell;
+    
+}
+
+.portoflio .card img {
+    width: 100%;
+}
+
+.portoflio .container .text {
+    font-size: 15px;
+    color: #ffe600;
+}
+
+.portoflio .container .foot {
+    margin-bottom: 120px;
+}
+
+.portoflio .container .foot .text {
+    font-size: 15px;
+    color: #ffe600;
+    margin-bottom: 30px;
+}
+
+.clients {
+    height: 500px;
+    background-color: #424245;
+    display: table;
+    width: 100%;
+}
+
+.clients .container {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: 70%;
+}
+
+.clients .container .title {
+    font-size: 25px;
+    color: #ffffff;
+    margin-bottom: 34px;
+}
+
+.clients .container .text {
+    font-size: 15px;
+    color: #ffe600;
+    margin-bottom: 138px;
+}
+
+.clients .container .features {
+    display: table;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.clients .container .myrow {
+  display: table-row;
+}
+
+.clients .container .feature {
+     display: table-cell;
+}
+
+.contactus {
+    width: 100%;
+    height: 800px;
+    display: table;
+}
+
+.contactus .container {
+    width: 80%;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.contactus .container .title {
+    font-size: 25px;
+    margin-bottom: 33px;
+}
+
+.contactus .container .text {
+    font-size: 15px;
+    color: #ffe600;
+    margin-bottom: 120px;
+}
+
+
+.contactus .container .form form input {
+    display: block;
+    margin: 0 auto;
+    border: 0;
+    color: white;
+    padding-left: 23px;
+}
+
+.contactus .container .form form .name {
+    width: 33.7%;
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    height: 50px;
+    background-color: #ffe600;
+}
+
+.contactus .container .form form .email {
+    width: 33.7%; 
+    display: inline-block;
+    height: 50px;
+    background-color: #ffe600;
+}
+
+.contactus .container .form form .subject {
+    width: 69.4%;
+    margin-bottom: 20px;
+    height: 50px;
+    background-color: #ffe600;
+}
+.contactus .container .form form textarea {
+    width: 69.4%;
+    height: 180px;
+    resize: none;
+    margin-bottom: 20px;
+    background-color: #ffe600;
+    border: 0;
+    padding-top: 23px;
+    padding-left: 23px;
+    color: white;
+}
+.contactus .container .form form .submit {
+    width: 69.4%;
+    height: 50px;
+    background-color: #131316;
+    color: #ffe600;
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: table;
+}
+
+.footer .container {
+    width: 80%;
+    display: table-cell;
+    vertical-align: middle;
+    margin: 0 auto;
+}
+
+.footer .cop {
+    margin-left: 10%;
+    color: white;
+    display: inline-block;
+}
+
+.footer .soc {
+    float: right;
+    margin-right: 10%;
+}
+
+.footer .soc:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.footer .soc img {
+    margin-left: 40px;
+}
