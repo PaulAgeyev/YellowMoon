@@ -101,12 +101,12 @@ color: white;
 }
 
 .nav .navbar ul li {
-    color: #a4a4a4;
     display: inline-block;
     margin-left: 13px;
 }
 
 .nav .navbar ul li a {
+    color: #a4a4a4;
     text-decoration: none;
 }
 
